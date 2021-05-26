@@ -22,7 +22,7 @@ void print_file(FILE *fp, int opts) {
 }
 
 void perform_each(char *file_name, int opts) {
-    FILE *fp = fopen(file_name, "r");
+    FILE *fp = // file_name を読み込み専用で開く処理を書いてください．
     if(fp == NULL) {
         perror(file_name);
         return;
