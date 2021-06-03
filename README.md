@@ -21,8 +21,26 @@ file3file3file3
 file3file3
 file3
 file1
-file1
 file1file1
 file1file1file1
-$ mycat # このステップでは何も行わない．
 ```
+
+### 作業の手順
+
+1. プロジェクトをクローンします．
+    * `git clone git@github.com/tmdlab2020TestTeam/pre_experiment-????.git` 
+    * 具体的な URL はこのページの上部にある「Code」ボタンをクリックして確認してください．
+2. クローンされたディレクトリに移動します．
+    * `cd pre_experiment-????`
+3. kani を有効化します．
+    * `kani init`
+4. プログラム（`main.c`）を編集します．
+5. 動作確認を行いましょう．
+    * 動作確認ができれば次のステップに進みましょう．
+6. git add, git commit, git pushを行い，変更を GitHub に送信しましょう．
+7. それができれば，一つ上のディレクトリに移動し，次の実験1に進んでください．
+
+### 修正の方針
+
+* 25行目に，`file_name`を開く処理（`fopen`）を追加しましょう．
+
